@@ -1,6 +1,6 @@
 Package.describe({
   name: 'shreks7:coffee-compiler',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'CoffeeScript Compiler API',
   git: 'https://github.com/shreks7/coffee-compiler.git',
   documentation: 'README.md'
