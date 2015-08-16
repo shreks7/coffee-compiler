@@ -5,11 +5,11 @@ This only runs on the server side. I made this because I wanted to do string bas
 
 My first meteor pacakge.
 
-Installation:
+<b>Installation:
 
 ```meteor add shreks7:coffee-compiler```
 
-Usage:
+<b>Usage:
 
 ``` javascript
 if (Meteor.isServer)
