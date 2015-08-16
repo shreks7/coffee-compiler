@@ -13,7 +13,7 @@ CoffeeCompiler = {
 					if(minified == true){
 						//Minify JS
 						compiledStr = UglifyJS.minify(compiledStr, {fromString: true});
-						callback(compiledStr.code);
+						callback(null,compiledStr.code);
 					}
 					else{
 						callback(null,compiledStr);
