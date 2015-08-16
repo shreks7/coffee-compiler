@@ -16,11 +16,11 @@ CoffeeCompiler = {
 						callback(compiledStr.code);
 					}
 					else{
-						callback(compiledStr);
+						callback(null,compiledStr);
 					}
 				}
 				catch(e){
-					callback(e.toString());
+					callback(e.toString(),null);
 				}
 				
 			}
