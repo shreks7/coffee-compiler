@@ -8,8 +8,7 @@ Package.describe({
 
 Npm.depends({
   "coffee-script": "1.9.3",
-  "uglify-js":"2.4.24",
-  "eval":"0.1.1"
+  "uglify-js":"2.4.24"
 });
 
 Package.onUse(function(api) {
