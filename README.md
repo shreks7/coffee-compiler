@@ -1,19 +1,25 @@
-CoffeeScript Compiler API - 
+<h1>CoffeeScript Compiler API</h1>
 
 This package helps you compile coffeescript snippets to javscript asynchronously using the coffee-script API.
-This only runs on the server side.
+This only runs on the server side. I made this because I wanted to do string based realtime compiling
 
 Installation:
 
-meteor add shreks7:coffee-compiler
+```meteor add shreks7:coffee-compiler```
 
 Usage:
 
+``` javascript
 if (Meteor.isServer)
 	CoffeeCompiler.compileToJS(str,callback,minified)
+```
 
-callback: function(result | error)
-		  It throws an error if you pass an invalid string
+<h3>Parameters</h3>
 
-minified: true| false
-		  You can minify your JS
+<b>callback: function(result | error)</b>
+	<br>It throws an error if you pass an invalid string
+
+<p>
+<b> minified: true| false</b>
+	<br>Set true if you wish to minify your JS
+</p>
