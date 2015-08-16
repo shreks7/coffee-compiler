@@ -1,7 +1,9 @@
 <h1>CoffeeScript Compiler API</h1>
 
 This package helps you compile coffeescript snippets to javscript asynchronously using the coffee-script API.
-This only runs on the server side. I made this because I wanted to do string based realtime compiling
+This only runs on the server side. I made this because I wanted to do string based realtime compiling.
+
+My first meteor pacakge.
 
 Installation:
 
@@ -16,7 +18,7 @@ if (Meteor.isServer)
 
 <h3>Parameters</h3>
 
-<b>callback: function(result | error)</b>
+<b>callback = function(error,result)</b>
 	<br>It throws an error if you pass an invalid string
 
 <p>
