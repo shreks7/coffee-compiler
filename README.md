@@ -3,7 +3,7 @@
 This package helps you compile coffeescript snippets to javscript asynchronously using the coffee-script API.
 This only runs on the server side. I made this because I wanted to do string based realtime compiling.
 
-My first meteor pacakge.
+My first meteor pacakge. <a href="http://atmospherejs.com/shreks7/coffee-compiler">Atmosphere Package</a>
 
 <b>Installation:</b>
 
